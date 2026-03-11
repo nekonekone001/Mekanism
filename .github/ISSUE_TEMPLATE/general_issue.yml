@@ -3,7 +3,13 @@ description: Report a bug or problem with Mekanism
 body:
   - type: markdown
     attributes:
-      value: "*Please use the search functionality before reporting an issue. Also take a look at the closed issues!*"
+      value: "*Please use the search functionality before reporting an issue. Also take a look at the closed issues! This tracker is only for Mekanism-specific bugs and problems; general questions should go to Discord or the relevant game's own support channels.*"
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: I confirmed this report is specifically about Mekanism and is not a question about another game, service, or project.
+          required: true
   - type: textarea
     attributes:
       label: Issue description
